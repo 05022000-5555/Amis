@@ -1,0 +1,107 @@
+@import url(./base/button-dropdown.css);
+@import url(./base/icon-search.css);
+@import url(./base/button-color.css);
+@import url(./base/table.css);
+@import url(./base/sizebar-left.css);
+@import url(./base/sizebar-right.css);
+@import url(./base/header.css);
+@import url(./base/content.css);
+@import url(./base/navigation.css);
+@import url(./base/icon.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    /* display: block; */
+}
+@font-face {
+    font-family: notosans;
+    src: url(../assets/fonts/notosans-regular.2cb88a13.woff2);
+}
+@font-face {
+    font-family: notosans bold;
+    src: url(../assets/fonts/notosans-bold.3ede5aff.woff2);
+}
+@font-face {
+    font-family: notosans italic;
+    src: url(../assets/fonts/notosans-italic.1c1aaac9.woff2);
+}
+@font-face {
+    font-family: notosans semibold;
+    src: url(../assets/fonts/notosans-semibold.df3e6dc4.woff2);
+}
+body{
+    font-family: notosans;
+    font-size: 13px;
+    color: #111111;
+    /* overflow: hidden; */
+}
+.main{
+    display: flex;
+}
+.text-align-center{
+    text-align: center;
+}
+.text-align-left{
+    text-align: start;
+}
+.text-align-right{
+    text-align: end;
+}
+.container-index{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.row{
+    margin: 20px 0px;
+}
+
+.border-none{
+    border: none;
+    outline: none;
+}
+.flex-aligin-center{
+    display: flex;
+    align-items: center;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.m-input-error{
+    border: 1px solid #ff0000 !important;
+}
+/* Xây dựng layout */
+
+/* Loading */
+.loading__icon{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border-width: 4px;
+    border-color: #019160;
+    border-style: solid;
+    border-top-color: white;
+    border-bottom-color: yellow;
+    animation: spin 0.2s ease linear infinite;
+}
+@keyframes spin {
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+/* test */
+.container-test{
+    width: 960px;
+}
+.grip-modal-control{
+    min-width: 100%;
+}
+.grip-modal-total{
+    max-width: 100%;
+}

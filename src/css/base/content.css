@@ -1,0 +1,68 @@
+.content{
+    height: calc(100vh - 48px);
+    background-color: #eceef1;
+    padding: 0 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.header_employee {
+    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ECEEF1;
+}
+.header_employee h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #111; 
+}
+
+.content_Employee{
+    background-color: #fff;
+    padding: 0 20px;
+    
+}
+.form-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+.ImplementSeries{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+    border: 2px solid #3b3c3f;
+    border-radius: 30px;
+    height: 36px;
+    transition: all 0.1s linear;
+    cursor: pointer;
+    position: relative;
+}
+.ImplementSeries:hover{
+    background-color: #d2d3d6;
+
+}
+.ImplementSeries-border{
+    gap: 6px;
+    /* font-weight: 300; */
+    cursor: pointers;
+    background: none;
+    border: none;
+    font-size: 14px;
+}
+.ImplementSeries-border span{
+    color: #000;
+    font-weight: 550;
+}
+.form-search{
+    gap: 10px;
+    text-align: right;
+}
+.icon-refresh{
+    background-position: -423px -201px;
+    cursor: pointer;
+}
+.icon-refresh:hover{
+    background-position: -1097px -88px;
+}

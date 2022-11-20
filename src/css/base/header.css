@@ -1,0 +1,81 @@
+.header{
+    height: 48px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+.hidden{
+    display: none;
+}
+.header-toggle{
+    gap: 10px;
+}
+.icon-toggle-header{
+    background-position: -843px -30px;
+    cursor: pointer;
+}
+.mi-chevron-right {
+    background-position: -80px -360px;
+}
+.mi-14-move{
+    transform: rotate(90deg);
+    margin-top: 2px;
+}
+.name-company{
+    gap: 10px;
+}
+.company{
+    text-transform: uppercase;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: 600;
+    max-width: 600px;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    color: #111;
+}
+.DC{
+    gap: 6px;
+    padding: 6px 13.5px;
+    border-radius: 40px;
+    border: 1px solid #ebedf0;
+    margin-left: 30px;
+}
+.dot{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #4ea344;
+    border: 1px solid #fff;
+}
+.notification{
+    gap: 20px;
+    padding-right: 30px;
+
+}
+.header-avatar{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #e2e2e2;
+}
+.header-avatar img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.name-company-notification {
+    gap: 5px;
+}
+.mi-chevron-down{
+    background-position: -944px -360px;
+}
+.icon-bell{
+    background-position: -788px -30px;
+}
+.name-employee{
+    font-size: 13px;
+}

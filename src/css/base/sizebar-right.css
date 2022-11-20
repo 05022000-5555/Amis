@@ -1,0 +1,9 @@
+.sizebar-right{
+    flex-basis: calc(100% - 179px);
+    background-color: #fff;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.sizebar-right-toggle{
+    flex-basis: calc(100% - 50px);
+}

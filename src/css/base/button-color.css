@@ -1,0 +1,57 @@
+.button-color{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.icon-dropdown-white{
+    background-position: -848px -359px;
+    width: 16px;
+    height: 16px;
+}
+.button-color__add{
+    background-color: #2ca01c;
+    padding: 9px 19px;
+    font-family: notosans semibold;
+    border-radius:30px 0px 0px 30px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+}
+.button-color__icon{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: #2ca01c;
+    padding: 10px 0px;
+    width: 46px;
+    font-size: 16px;
+    padding-right: 12px;
+    border-radius:0px 30px 30px 0px;
+    position: relative;
+    cursor: pointer;
+}
+.icon-line{
+    height: 20px;
+    border: 1px solid #fff;
+    position: absolute;
+    left: 4px;
+}
+/* .button-color__add:active:active, .button:active:active{
+    background-color: #248b15;
+}
+.button-color__icon:active:active{
+    background-color: #248b15;
+}
+.button-color__add:hover, .button-color__icon:hover, .button:hover{
+    background-color: #35bf22;
+} */
+/* .button{
+    padding: 10px 20px;
+    background-color: #2ca01c;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+} */

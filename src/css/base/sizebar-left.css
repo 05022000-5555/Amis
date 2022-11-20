@@ -1,0 +1,98 @@
+.sizebar-left{
+    flex-basis: 179px;
+    background-color: #38393d;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+.sizebar-left-toggle{
+    flex-basis: 50px;
+    width: 50px;
+}
+.sb-left-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 24px;
+    margin-bottom: 15px;
+}
+.icon-invoice{
+    background-position: -249px -1628px;
+}
+.icon-stock{
+    background-position: -291px -1628px;
+}
+.icon-tool{
+    background-position: -336px -1628px;  
+}
+.icon-assets{
+    background-position: -378px -1630px;
+}
+.icon-salary{
+    background-position: -467px -1659px;
+}
+.icon-tax{
+    background-position: -423px -1630px;
+}
+.icon-general{
+    background-position: -510px -1628px;
+}
+.icon-toggle{
+    background-position: -424px -86px;
+    width: 24px;
+    height: 24px;
+}
+.sb-left-avatar {
+    width: 96px;
+    height: 32px;
+}
+.sb-left-avatar img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* nav bar menu */
+.icon-dashboard{
+    background-position: -30px -1628px;
+    width: 24px;
+    height: 24px;
+}
+.icon-cash{
+    background-position: -73px -1628px;
+}
+.icon-bank{
+    background-position: -117px -1628px;
+}
+.icon-pu{
+    background-position: -161px -1628px;
+}
+.icon-sale{
+    background-position: -204px -1628px;
+}
+.navbar-list .navbar-item .navbar-item__link {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    /* background-color: #f1f1f1; */
+    gap: 8px;
+    cursor: pointer;
+    font-family: notosans;
+    padding: 8px 14px;
+    transition: all 0.2s linear;
+}
+
+
+/* .navbar-item__link .too */
+.navbar-list .navbar-item .navbar-item__link:hover{
+    background-color: #58595d;
+}
+.router-link-active{
+    border-left: 6px solid #2ca01c;
+    background-color: #58595d;
+    font-family: notosans bold;
+    padding-left: 7px;
+}
+.router-link-active .icon{
+    filter: brightness(5);
+}
